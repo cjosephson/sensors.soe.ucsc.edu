@@ -1,67 +1,190 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Soil sensing</title>
-    <LINK REL="stylesheet" HREF="../css/style.css" TYPE="text/css">
-  </head>
-  <body>
-    <div class="main">
-      <div class="content">
-	    <h1>RF Soil Moisture Sensing via Radar Backscatter Tags</h1>
-	    <h3>C. Josephson, B. Barnhart, S. Katti, K. Winstein and R. Chandra</h3>
-	    <h2>&#8227;<a href="https://arxiv.org/abs/1912.12382">Pre-print</a></h2>
-
-	    <div class="figure figure_l">
-	  <IMG title="System overview" SRC="design.png" width="500">
-	  
-	</div>
-	    <p><b>Abstract:</b> We present a sensing system that
-	      determines soil moisture via RF using backscatter tags
-	      paired with a commodity ultra-wideband RF
-	      transceiver. Despite decades of research confirming the
-	      benefits, soil moisture sensors are still not widely
-	      adopted on working farms for three key reasons: the high
-	      cost of sensors, the difficulty of deploying and
-	      maintaining these sensors, and the lack of reliable
-	      internet access in rural areas. We seek to address these
-	      obstacles by designing a low-cost soil moisture sensing
-	      system that uses a hybrid approach of pairing completely
-	      wireless backscatter tags with a mobile reader. We
-	      designed and built two backscatter tag prototypes and
-	      tested our system both in laboratory and in situ at an
-	      organic farm field. Our backscatter tags have a
-	      projected battery lifetime of up to 15 years on 4xAA
-	      batteries, and can operate at a depth of at least 30cm
-	      and up to 75cm. We achieve an average accuracy within
-	      1-3% of the ground truth with a 90th percentile of 3.4%,
-	      which is comparable to state-of-the-art commercial soil
-	      sensors, at an order of magnitude lower cost.
-	      <div class="clear"></div>
-	      <div class="footer"></div>
-		<h1>IPSN Demo</h1>
-
-		We'll be presenting a demo of our soil moisture
-		sensing system at IPSN 2020. Check out our demo video
-		below:
-		<br/>
-				<br/>
-		<iframe width="560" height="315"
-		src="https://www.youtube.com/embed/4m8p9s8nrQI"
-		frameborder="0" allow="accelerometer; autoplay;
-		encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen></iframe>
-		<br/>
-		<br/>
-		<div class="footer"></div>
-		<h1>News:</h1>
-		
-		<ul>
-		  <li>Our paper titled <i>Time-of-Flight Soil Moisture Estimation Using RF Backscatter Tags</i> has been accepted to <a href="https://igarss2020.org/Papers/AcceptedPapers.asp"> IGARSS 2020</a></li>
-		  <li>We are presenting a demo at <a href="https://ipsn.acm.org/2020/index.html">IPSN 2020</a> </li>
-		  <li>Our poster <a href="http://sensys.acm.org/2019/n2women/">won best poster award</a> at the SenSys '19 N2Women workshop</li>
-		  <li>Colleen Josephson's talk <a href="http://alumic.mit.edu/s/1314/17form/interior.aspx?sid=1314&pgid=50387&gid=13&cid=81555&ecid=81555&post_id=0">won 3rd in the MIT Bay Area Research Slam</a></li>
-		  </ul>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>jLab in Smart Sensing - Home</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="jLab @ UCSC">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="css/theme.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <header class="jumbotron subhead" id="overview">
+            <p class="lead"> UC Santa Cruz </p>
+            <h1>jLab in Smart Sensing</h1>
+         </header>
+         <div class="masthead">
+            <div class="navbar">
+               <div class="navbar-inner">
+                  <div class="container">
+                     <ul class="nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="people.html">People</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row-fluid">
+            <div class="span12">
+               <div id="main-carousel" class="carousel slide">
+                  <div class="carousel-inner">
+                     <div class="item active">
+                        <img src="images/titleImg.png" class="carousel-image" alt="">                      
+                        <div class="carousel-caption">
+                           <h4>Welcome to the jLab in Smart Sensing</h4>
+                           <!-- -->
+                           <p></p>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <img src="images/fft.png" class="carousel-image" alt="">
+                        <div class="carousel-caption">
+                           <h4>Range-Doppler Plot of our UWB Radar Backscatter Tag</h4>
+                           <p></p>
+                        </div>
+                     </div>
+                     <div class="item">
+		       <img src="images/backcam.png" class="carousel-image" alt="">                      
+                        <div class="carousel-caption">
+                           <h4>The BackCam Backscatter Camaera Platform</h4>
+                           <p></p>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="left carousel-control" href="#main-carousel" data-slide="prev">‹</a>
+                  <a class="right carousel-control" href="#main-carousel" data-slide="next">›</a>
+               </div>
+            </div>
+         </div>
+         <hr>
+         <div class="container-fluid">
+            <div class="row-fluid marketing">
+               <div class="span12">
+                 <p>
+		   The jLab researches wireless sensing and
+		   communications systems, with a focus technology
+		   that furthers sustainable practices. Our work
+		   includes designing novel sensing paradigms for
+		   agriculture, inventing techniques for ultra-low
+		   power communication in indoor sensor networks, and
+		   exploiting non-traditional energy sources, such as
+		   microbes, for sustainable sensing.
+                  </p>
+                  <br/>
+               </div>
+               <div class="row-fluid">
+                  <hr>
+                  <h2 class="centered">Recent News</h2>
+                  <hr>
+               </div>
+               <div class="span4 feature-item">
+                  <h5> <span class="date">Nov. 18, 2021 </span> </h5>
+                  <h4 class="feature-heading">
+                     <a href="https://www.youtube.com/watch?v=WrSQfxIoFWw">
+		     Josephson invited to give
+                     department seminar at Northwestern
+                     University. 
+                     </a>
+                     <br/>
+                  </h4>
+                  <hr>
+                  <div class="centered">
+                     <a href="https://www.youtube.com/watch?v=WrSQfxIoFWw">
+                     <img style="height: 200;" src="thumbs/talk.png" alt=""></a>
+                  </div>
+                  <hr>
+                  <p>
+		    The talk, titled "Enabling
+                     Sustainable Sensor Networks with Microbe-powered
+                     RF Backscatter", is recorded and available
+		    <a href="https://www.youtube.com/watch?v=WrSQfxIoFWw">here</a>.
+                  </p>
+                  <br/>
+                  <br/>
+               </div>
+               <div class="span4 feature-item">
+                  <h5> <span class="date">Nov 21, 2019</span> </h5>
+                  <h4 class="feature-heading">
+                    <a href="https://alumic.mit.edu/s/1314/17form/interior.aspx?sid=1314&pgid=50387&gid=13&cid=81555&ecid=81555&post_id=0">
+		      Wireless Soil Moisture Sensing a Finalist at the MIT Research Slam
+                     </a>
+                  </h4>
+                  <hr>
+                  <div class="centered">
+                     <a href="https://alumic.mit.edu/s/1314/17form/interior.aspx?sid=1314&pgid=50387&gid=13&cid=81555&ecid=81555&post_id=0">
+                     <img src="thumbs/design.png" alt="">
+                     </a>
+                  </div>
+                  <hr>
+                  <p>
+		    Our work on wirelessly sensing soil moisture
+		    research was a finalist at
+		    the <a href="https://alumic.mit.edu/s/1314/17form/interior.aspx?sid=1314&pgid=50387&gid=13&cid=81555&ecid=81555&post_id=0">MIT
+		    Research Slam</a> in Palo Alto, CA.
+		  </p>
+                  <br/>
+               </div>
+               <div class="row-fluid">
+                  <div class="span4 feature-item">
+                     <h5> <span class="date">Nov 11, 2019</span> </h5>
+                     <h4 class="feature-heading">
+                        <a href="https://sensys.acm.org/2019/n2women/">
+			  Our poster won best poster award at the SenSys '19 N2Women workshop
+                        </a>
+                     </h4>
+                     <hr>
+                     <div class="centered">
+                        <a href="https://sensys.acm.org/2019/n2women/">
+                        <img src="thumbs/poster.png" alt=""></a>
+                     </div>
+                     <hr>
+                     <p>
+		       The poster was titled "Accelerating Data-Driven Agriculture Using Wireless Soil Moisture Sensors".
+                     </p>
+                     <br/>					
+                  </div>
+               </div>
+               <hr>
+            </div>
+         </div>
       </div>
-    </div>
-  </body>
+      <footer id="footer">
+         <div class="container-fluid">
+            <div class="row-fluid">
+               <div class="span5">
+                  <h3>Contact Information</h3>
+                  <a href="mailto:cjosephson@ucsc.edu">Email</a>
+               </div>
+               <div class="span2">
+		 <br/>
+		 <br/>
+		 <br/>
+		 
+                  <img src = "thumbs/ucsc-slug-logo.png" alt="ucsc-logo"/></a>
+               </div>
+               <div class="span5">
+                  <h3>Address</h3>
+                  <p>Jack Baskin Engineering<br>
+                     1156 High Street<br>
+                     Santa Cruz CA<br>
+                     95064
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Javascript files -->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script> $('#main-carousel').carousel(); </script>
+   </body>
 </html>
